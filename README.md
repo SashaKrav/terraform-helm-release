@@ -5,5 +5,6 @@
 ```
 module "release" {
   source  = "SashaKrav/release/helm"
+  name   = "testapplication"
 }
 ```
