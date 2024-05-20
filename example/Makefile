@@ -7,4 +7,4 @@ verify:
 	kubectl get all -n testapp 
 
 destroy:	
-	terraform init && terraform apply -auto-approve
+	terraform init && terraform destroy -auto-approve
