@@ -7,5 +7,7 @@ module "release" {
   source  = "SashaKrav/release/helm"
   name   = "testapplication"
   namespace = "testapp"
+  values_yaml = <<EOF
+ EOF 
 }
 ```
